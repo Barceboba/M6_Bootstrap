@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
-@import "mixins";
-@import "variables";
+@import "/scss/bootstrap.scss";
+
 
 html {
     box-sizing: border-box;
@@ -11,21 +11,10 @@ html {
     
   }
 
-  body {
-    height: calc(100vh - 20px);
-           
-  }
-
-  .row {
-    margin: 0;
-  }
-
-//X modal
-.text-warning {
-  opacity: .9;
+.text-primary {
+  color: $primary;
 }
 
-// Color path hamburger
-path {
-  fill: #ffc107;
+.text-secondary {
+  color: $secondary;
 }

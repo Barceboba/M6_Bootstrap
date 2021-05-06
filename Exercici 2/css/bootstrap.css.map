@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;GAKG",
+    "sources": [
+        "../scss/bootstrap.scss",
+        "../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "bootstrap.css"
+}

@@ -8,20 +8,4 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
-
-body {
-  height: calc(100vh - 20px);
-}
-
-.row {
-  margin: 0;
-}
-
-.text-warning {
-  opacity: .9;
-}
-
-path {
-  fill: #ffc107;
-}
 /*# sourceMappingURL=main.css.map */
