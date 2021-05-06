@@ -1,27 +1,40 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.text-primary {
+  color: #dc3545 !important;
 }
 
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+.text-secondary {
+  color: #6610f2 !important;
 }
 
-body {
-  height: calc(100vh - 20px);
+.text-success {
+  color: #fd7e14 !important;
 }
 
-.row {
-  margin: 0;
+.text-danger {
+  color: #28a745 !important;
 }
 
 .text-warning {
-  opacity: .9;
+  color: #20c997 !important;
 }
 
-path {
-  fill: #ffc107;
+.text-info {
+  color: #e83e8c !important;
+}
+
+.text-light {
+  color: #ffc107 !important;
+}
+
+.text-dark {
+  color: #6f42c1 !important;
+}
+
+.text-muted {
+  color: #0578dd !important;
+}
+
+.text-white {
+  color: #e9bc29 !important;
 }
 /*# sourceMappingURL=main.css.map */

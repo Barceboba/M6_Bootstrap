@@ -31,7 +31,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #358ca1;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -124,13 +124,13 @@ sup {
 }
 
 a {
-  color: #3700ff;
+  color: #d9ff00;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #2700b3;
+  color: #98b300;
   text-decoration: underline;
 }
 
@@ -180,7 +180,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #7c1930;
   text-align: left;
   caption-side: bottom;
 }
