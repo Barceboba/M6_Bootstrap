@@ -1,43 +1,25 @@
-@import "variables";
 
 
-//Aplicando cambios
-.text-primary {
-    color: $primary !important;
-}
 
-.text-secondary {
-    color: $secondary !important;
-}
+//Aplicando cambios en tema colores
+$theme-colors: (
+  "primary": #e75d7b,
+  "secondary": #e1e1e1,
+  "success": #33d87d,
+  "info": #C0392B,
+  "warning": #239B56,
+  "danger": #fff,
+  "light": #34495E,
+  "dark": #F5CBA7, 
+  
+);
 
-.text-success {
-    color: $success !important;
-}
+//Aplicando cambios en muted con gray-600
+$gray-600: #0e5491;
 
-.text-danger {
-    color: $danger !important;
-}
+//Cambio de white
+$white:    #cf1717;
 
-.text-warning {
-    color: $warning !important;
-}
 
-.text-info {
-    color: $info !important;
-}
 
-.text-light {
-    color: $light !important;
-}
-
-.text-dark {
-    color: $dark !important;
-}
-
-.text-muted {
-    color: $text-muted !important;
-}
-
-.text-white {
-    color: $white !important;
-}
+@import "../node_modules/bootstrap/scss/bootstrap";
